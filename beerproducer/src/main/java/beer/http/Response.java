@@ -6,4 +6,8 @@ public class Response {
     public Response(ResponseStatus status) {
         this.status = status;
     }
+
+    public ResponseStatus getStatus() {
+        return status;
+    }
 }
